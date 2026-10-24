@@ -6,11 +6,9 @@
 
 An end-to-end quantitative risk management system analyzing 33+ years (1990–2023) of WTI crude oil market dynamics. The framework couples **Gaussian Hidden Markov Models (HMM)** for market regime detection with **Bayesian Network Directed Acyclic Graphs (DAG)** for causal macro structure learning and out-of-sample directional forecasting.
 
-*Replication and empirical extension of Danish A. Alvi's UCL research (2018).*
 
 ---
 
-> ### 💡 Executive Summary (In Plain English)
 > 
 > * **The Challenge:** Traditional quantitative models (linear regression, moving averages, or black-box neural nets) struggle with energy markets because oil prices suffer extreme, non-linear spikes driven by supply shocks and geopolitical events. Black-box models output predictions without explaining *why*.
 > * **The Solution:** We built a two-stage probabilistic framework:
@@ -20,7 +18,7 @@ An end-to-end quantitative risk management system analyzing 33+ years (1990–20
 
 ---
 
-## 📊 Key Highlights & Empirical Results
+##  Key Highlights & Empirical Results
 
 | Metric | Result | Economic Meaning |
 | :--- | :--- | :--- |
@@ -32,7 +30,7 @@ An end-to-end quantitative risk management system analyzing 33+ years (1990–20
 
 ---
 
-## 🏗️ Architecture Pipeline
+##  Architecture Pipeline
 
 ```mermaid
 flowchart LR
@@ -61,7 +59,7 @@ flowchart LR
 
 ---
 
-## 📈 Macroeconomic Feature Dictionary
+##  Macroeconomic Feature Dictionary
 
 | Ticker / Code | Source | Economic Role |
 | :--- | :--- | :--- |
@@ -78,7 +76,7 @@ flowchart LR
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 crude-oil-bayesian-risk-modeling/
@@ -101,7 +99,7 @@ crude-oil-bayesian-risk-modeling/
 
 ---
 
-## 🚀 Quickstart & Setup
+##  Quickstart & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -130,9 +128,7 @@ crude-oil-bayesian-risk-modeling/
 ## 👤 Author
 
 * **SK Wasim Ahmed**
-* **Institution:** WorldQuant University — MSc in Financial Engineering (MScFE)
-* **GitHub:** [@ahmedw47](https://github.com/ahmedw47)
-* **Email:** [ahmedw47@gmail.com](mailto:ahmedw47@gmail.com)
+
 
 ---
 

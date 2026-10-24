@@ -1,0 +1,14 @@
+# API Keys and Environment Variables
+.env
+*.env
+
+# Python & Jupyter Cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data files & Archives
+*.zip
+*.log
+data/*.csv
